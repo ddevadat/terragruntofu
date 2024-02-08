@@ -33,7 +33,7 @@ inputs = {
   compartment_id                 = local.common_vars.compartment_id
   region                         = local.common_vars.region
   bucket_namespace               = local.common_vars.bucket_namespace
-  vcn_name                       = local.env_vars.vcn_name
+  label_prefix                   = local.env_vars.label_prefix
   vcn_cidrs                      = local.env_vars.vcn_cidrs
   bucketname                     = local.env_vars.bucketname
 }

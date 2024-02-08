@@ -7,9 +7,9 @@ variable "vcn_cidrs" {
   description = "CIDR Subnet to use for the VPC"
 }
 
-variable "vcn_name" {
+variable "label_prefix" {
   type        = string
-  description = "VCN Name"
+  description = "A string that will be prepended to all VCN resources"
 }
 
 variable "tags" {

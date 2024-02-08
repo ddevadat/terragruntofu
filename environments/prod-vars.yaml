@@ -1,3 +1,3 @@
 bucketname: "prod_bucket"
-vcn_name: "prod_vcn"
+label_prefix: "prod"
 vcn_cidrs: ["10.0.0.0/16"]
