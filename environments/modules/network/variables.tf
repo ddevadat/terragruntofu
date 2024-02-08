@@ -12,3 +12,9 @@ variable "vcn_name" {
   type        = string
   description = "VCN Name"
 }
+
+variable "tags" {
+  description = "Contains default tags for this project"
+  type        = map(string)
+  default     = {}
+}

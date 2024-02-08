@@ -5,4 +5,6 @@ module "vcn" {
   vcn_name = var.vcn_name
   vcn_cidrs = ["${var.vcn_cidr}"]
   create_internet_gateway = false
+  freeform_tags = var.tags
+
 }
