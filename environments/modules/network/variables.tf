@@ -2,9 +2,8 @@ variable "compartment_id" {
   description = "Compartment OCID"
 }
 
-variable "vcn_cidr" {
-  default     = "10.25.0.0/22"
-  type        = string
+variable "vcn_cidrs" {
+  type        = list(string)
   description = "CIDR Subnet to use for the VPC"
 }
 

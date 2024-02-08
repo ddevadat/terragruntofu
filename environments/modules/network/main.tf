@@ -3,7 +3,7 @@ module "vcn" {
   version = "3.6.0"
   compartment_id = var.compartment_id
   vcn_name = var.vcn_name
-  vcn_cidrs = ["${var.vcn_cidr}"]
+  vcn_cidrs = var.vcn_cidrs
   create_internet_gateway = false
   freeform_tags = var.tags
 
