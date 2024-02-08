@@ -34,7 +34,7 @@ inputs = {
   region                         = local.common_vars.region
   bucket_namespace               = local.common_vars.bucket_namespace
   vcn_name                       = local.env_vars.vcn_name
-  vcn_cidr                       = local.env_vars.vcn_cidrs
+  vcn_cidrs                      = local.env_vars.vcn_cidrs
   bucketname                     = local.env_vars.bucketname
 }
 
