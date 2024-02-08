@@ -32,3 +32,11 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+
+# visual code
+ **/.vscode/*
+
+.terraform.lock.hcl
+
+common-vars.yaml
